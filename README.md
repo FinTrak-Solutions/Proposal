@@ -1,6 +1,6 @@
 # Team Information
 Contributors to this project are:
-* Ke Li
+* Ke Li (1005842554)
 * Ellen Pan
 * Sarah Tang (1002397079)
 
