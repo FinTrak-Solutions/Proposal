@@ -64,11 +64,15 @@ The tool must support users to manage budgets. Specifically, the user should be 
 * Modify previously set budgets.
 The specified categories and frequencies would be validated by the tool.
 
+As an advanced feature, the user could sign-up for email warnings when the spending comes close to the set budgets. The sign-up option is available when creating limits, and users should provide their email addresses. 
+
 ### Analysis and Reporting
 On the basic level, the tool must offer reports on the logged transactions:
 * The user could choose between two views: account centric, income centric, or expense.
 * The user could adjust the time span of the reports: daily/weekly/monthly/yearly.
 * The user could get budget status: below_expectation/on_target/exceeded.
+
+As an advanced feature, the user could sign-up for email notifications to receive regular reporting and analysis. The settings for the email notifications would be the same as the above, but users should provide their email addresses. 
 
 # System Overview
 This section presents a high level overview of our personal finance tracker. A data flow diagram of the system, together with the potential technologies to be used, would be provided.
