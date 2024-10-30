@@ -83,4 +83,19 @@ A more detailed data flow diagram for the TUI is shown below. Our tool provides 
 ## Potential Technologies
 This section suggests potential external crates we would use to help with the implementation of our FIRE tool.
 
+### TUI tool: `ratatui`
+`Ratatui` provides a flexible framework for designing customizable TUI layouts. This flexibility can be beneficial for our project which requires layout management and data presentation like financial tracking dashboards.
+
+### Backend: `Rocket`
+`Rocket` is a more straightforward and intuitive API for developers who are new to Rust to learn and use. Its design allows developers to get started quickly and write more readable code with less hustle. 
+
+### DataBase: `Diesel`
+`Diesel` is pretty mature in the Rust ecosystem which makes it more stable and keeps a high reliability. Also, it has well-maintained documentation and an active community, making it easier to get started and particularly helpful for developers who may be new to Rust.
+
+### Email Report: `Lettre`
+The `Lettre` crate is an email library for Rust that supports sending automated emails, such as weekly or monthly reports and notifications. It provides support for SMTP and other transport methods, enabling efficient integration of email functionalities with minimal setup.
+
+### Backend Deployment: AWS EC2
+AWS EC2 is a scalable cloud computing service that provides cloud servers to run applications. In our financial tracker project, AWS EC2 serves as the backend deployment platform. By leveraging EC2, we can ensure the application backend is resilient, responsive and capable of scaling to meet user demands.
+
 
