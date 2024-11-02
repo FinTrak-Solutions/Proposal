@@ -104,6 +104,15 @@ The `Lettre` crate is an email library for Rust that supports sending automated 
 AWS EC2 is a scalable cloud computing service that provides cloud servers to run applications. In our financial tracker project, AWS EC2 serves as the backend deployment platform. By leveraging EC2, we can ensure the application backend is resilient, responsive and capable of scaling to meet user demands.
 
 ## Work Distribution
-With the above highlevel system design, we intend to modularize our tool into smaller services so that work could be carried out individually by each team member in parallel. Each module should be implemented and tested individually, and the team would come together at the end to put the "puzzle pieces" together. Our tenative work distribution and internal timeline are summarized in the table below:  
+With the above highlevel system design, we intend to modularize our tool into smaller services so that work could be parallelized as much as possible, once the interfaces between components could be settled. Each module should be implemented and tested individually, and the team would come together at the end to put the "puzzle pieces" together. Our tenative work distribution and internal timeline are summarized in the table below:  
+| Tentative Completion Date | Task                                                                                                                                   | Assignee                 |
+|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| 2024/11/15                | Interface discussion: TUI and backend logic                                                                                            | Ellen Pan Sarah Tang     |
+|                           | Interface discussion: backend logic and database                                                                                       | Ke Li Sarah Tang         |
+| 2024/11/25                | Complete TUI design and functionalities                                                                                                | Ellen Pan                |
+|                           | Complete backend logic                                                                                                                 | Sarah Tang               |
+|                           | Complete database storage and interface for database                                                                                   | Ke Li                    |
+| 2024/11/30                | Combine the modules together and integration test                                                                                      | All members of the team. |
+| 2024/12/10                | All deliverables completed: <ul> <li> Source code repository done </li> <li> Demo recorded </li> <li> README.md up-to-date </li> </ul> | All members of the team. |
 
 
